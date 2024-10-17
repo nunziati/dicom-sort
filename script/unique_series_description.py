@@ -3,9 +3,9 @@ from pathlib import Path
 
 from dicomselect import Database
 
-root = Path("/data/pelvis/projects/giacomo/dicom_datasets")
+root = Path("/data/pelvis/projects/giacomo")
 
-dataset_path = root / "dicom_dataset" / "RUMC"
+dataset_path = root / "dicom_datasets" / "RUMC"
 
 db_path = Path('./')
 
