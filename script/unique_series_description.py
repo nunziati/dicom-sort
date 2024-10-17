@@ -3,7 +3,7 @@ from pathlib import Path
 
 from dicomselect import Database
 
-root = Path("/data/pelvis/projects/dicom_datasets/giacomo")
+root = Path("/data/pelvis/projects/giacomo/dicom_datasets")
 
 dataset_path = root / "dicom_dataset" / "RUMC"
 
